@@ -1,0 +1,11 @@
+<section class="container page">
+  <article>
+    {{ if ne .File.BaseFileName "contact" }}
+      <header>
+        <h1>{{ .Title }}</h1>
+      </header>
+    {{ end }}
+
+    {{ .Content }}
+  </article>
+</section>

@@ -1,0 +1,10 @@
+{{ define "content" }}
+  <section class="container centered">
+    <div class="about">
+      <h1>{{ .Site.Title }}</h1>
+      <h2>{{ .Site.Params.info }}</h2>
+      <p>{{ .Site.Params.description }}</p>
+      <a href="{{ "contact" | relLangURL }}" class="btn">Contact Us</a>
+    </div>
+  </section>
+{{ end }}

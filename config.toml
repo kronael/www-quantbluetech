@@ -1,0 +1,106 @@
+baseurl = "https://www.quantblue.tech/"
+title = "QuantBlue"
+
+theme = "coder-portfolio"
+
+DefaultContentLanguage = "en"
+
+[pagination]
+  pagerSize = 20
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+pygmentsUseClasses = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+
+    author      = "QuantBlue, Inc."
+    title       = "QuantBlue"
+    info        = "Real-time AI Data Pipelines at Web Scale"
+    description = "QuantBlue builds ultra-low latency AI pipelines for live data at Internet scale."
+    keywords = "blockchain,blog,developer,company,startup"
+    # avatarurl = "images/avatar.jpg"
+    hideCredits = false
+    hideCopyright = false
+
+    # Bottom sns share
+    snsShare = false
+    # Popular sns share
+    # if you want add sns. please message!
+    enableTwitterShare = true
+    enableFacebookShare = false
+    enableHatenaShare = false
+    enableLineShare = false
+    enableLinkedInShare = false
+
+    thumbnail = ""
+
+    # Custom CSS
+    # font_css = "https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500;700"
+    # custom_css = ["https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"]
+
+    # Alignment of Mobile Menu items
+    itemscentered = true
+
+    # RTL support
+    rtl = false
+
+    langseparator = ""
+
+# [[params.social]]
+#     name = "github"
+#     icon = "fab fa-github"
+#     weight = 1
+#     url = "https://github.com/..."
+# [[params.social]]
+#     name = "Twitter"
+#     icon = "fab fa-twitter"
+#     weight = 2
+#     url = "https://twitter.com/.../"
+# [[params.social]]
+#     name = "LinkedIn"
+#     icon = "fab fa-linkedin"
+#     weight = 3
+#     url = "https://www.linkedin.com/company/stratosphere-capital"
+
+[languages]
+
+    [languages.en]
+        languagecode = "en"
+        languagename = "English" # The language name to be displayed in the selector.
+        footercontent = "How HIGH can You GO"
+
+        [languages.en.menu] # It is possible to change the menu too.
+
+            [[languages.en.menu.main]]
+                name = "About"
+                weight = 1.0
+                url = "about"
+
+            # [[languages.en.menu.main]]
+            #     name = "Blog"
+            #     weight = 2.0
+            #     url = "posts"
+
+            # [[languages.en.menu.main]]
+            #     name = "Projects"
+            #     weight = 3
+            #     url = "projects"
+
+            # [[languages.en.menu.main]]
+            #     name = "Careers"
+            #     weight = 4
+            #     url = "hiring"
+
+            [[languages.en.menu.main]]
+                name = "Contact"
+                weight = 5
+                url = "contact"
+
+            # [[languages.cs.menu.main]]
+            #     name = "Impressum"
+            #     weight = 6
+            #     url = "media"
