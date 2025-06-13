@@ -25,6 +25,7 @@ disqusShortname = "yourdiscussshortname"
     # avatarurl = "images/avatar.jpg"
     hideCredits = false
     hideCopyright = false
+    favicon     = true
 
     # Bottom sns share
     snsShare = false
